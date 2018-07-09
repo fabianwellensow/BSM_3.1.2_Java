@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/management
+END
+jmxremote.password.template
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/management/jmxremote.password.template
+END
+snmp.acl.template
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/management/snmp.acl.template
+END
+management.properties
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/management/management.properties
+END
+jmxremote.access
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/management/jmxremote.access
+END

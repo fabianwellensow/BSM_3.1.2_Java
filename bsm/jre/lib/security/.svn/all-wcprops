@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/security
+END
+java.policy
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/security/java.policy
+END
+blacklisted.certs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/security/blacklisted.certs
+END
+US_export_policy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/security/US_export_policy.jar
+END
+cacerts
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/security/cacerts
+END
+local_policy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/security/local_policy.jar
+END
+trusted.libraries
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/security/trusted.libraries
+END
+java.security
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/security/java.security
+END
+blacklist
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/security/blacklist
+END
+javaws.policy
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/security/javaws.policy
+END

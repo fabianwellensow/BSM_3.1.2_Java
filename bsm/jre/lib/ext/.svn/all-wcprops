@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext
+END
+dnsns.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/dnsns.jar
+END
+nashorn.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/nashorn.jar
+END
+sunpkcs11.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/sunpkcs11.jar
+END
+localedata.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/localedata.jar
+END
+jaccess.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/jaccess.jar
+END
+zipfs.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/zipfs.jar
+END
+access-bridge-32.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/access-bridge-32.jar
+END
+jfxrt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/jfxrt.jar
+END
+sunec.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/sunec.jar
+END
+cldrdata.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/cldrdata.jar
+END
+meta-index
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/meta-index
+END
+sunjce_provider.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/sunjce_provider.jar
+END
+sunmscapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/applic/bsm/!svn/ver/133/share/trunk/workspace/BranchenSimulation/bsm/jre/lib/ext/sunmscapi.jar
+END
