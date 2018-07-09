@@ -817,6 +817,42 @@ public class RzgZeile {
 	public double getPraemien() {
 		return praemien;
 	}
+	
+	/**
+	 * Leistungen beim Tod. N.
+	 * 
+	 * @return der Wert
+	 */
+	public double getlTod() {
+		return lTod;
+	}
+	
+	/**
+	 * Kapitalabfindungen. O.
+	 * 
+	 * @return der Wert
+	 */
+	public double getlKa() {
+		return lKa;
+	}
+	
+	/**
+	 * sonstige Erlebensfallleistungen. P.
+	 * 
+	 * @return der Wert
+	 */
+	public double getsonstigeErlebensfallLeistungen() {
+		return sonstigeErlebensfallLeistungen;
+	}
+	
+	/**
+	 * Rückkaufswert. Q.
+	 * 
+	 * @return der Wert
+	 */
+	public double getlRkw() {
+		return lRkw;
+	}
 
 	/**
 	 * Risikoüberschüsse. R.

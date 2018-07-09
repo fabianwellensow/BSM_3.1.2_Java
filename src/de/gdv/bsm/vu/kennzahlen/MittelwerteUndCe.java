@@ -45,6 +45,16 @@ public class MittelwerteUndCe {
 	private final String lob;
 	private final int zeit;
 	@TableField
+	private final double n;
+	@TableField
+	private final double o;
+	@TableField
+	private final double p;
+	@TableField
+	private final double q;
+	@TableField
+	private final double w;
+	@TableField
 	private final double bv;
 	@TableField
 	private final double bj;
@@ -56,6 +66,9 @@ public class MittelwerteUndCe {
 	private final double ag;
 	@TableField
 	private final double ak;
+	@TableField
+	private final double br;
+
 
 	/**
 	 * Erstelle die Kennzahlen zu einem Pfad anhand der Agg-Zeilen.
@@ -85,12 +98,18 @@ public class MittelwerteUndCe {
 		this.lob = lob;
 		this.zeit = zeit;
 
+		this.n = rzgZeilen.stream().mapToDouble(z -> dfVu(z.getlTod(), aggZeile, monat)).sum();
+		this.o = rzgZeilen.stream().mapToDouble(z -> dfVu(z.getlKa(), aggZeile, monat)).sum();
+		this.p = rzgZeilen.stream().mapToDouble(z -> dfVu(z.getsonstigeErlebensfallLeistungen(), aggZeile, monat)).sum();
+		this.q = rzgZeilen.stream().mapToDouble(z -> dfVu(z.getlRkw(), aggZeile, monat)).sum();
+		this.w = rzgZeilen.stream().mapToDouble(z -> dfVu(z.getDrDet(), aggZeile, monat)).sum();
 		this.bv = rzgZeilen.stream().mapToDouble(z -> df(z.getKostenKaRzg(), aggZeile)).sum();
 		this.bj = rzgZeilen.stream().mapToDouble(z -> dfVu(z.getLGesamt(), aggZeile, monat)).sum();
 		this.bk = rzgZeilen.stream().mapToDouble(z -> df(z.getEndZahlung(), aggZeile)).sum();
 		this.af = rzgZeilen.stream().mapToDouble(z -> dfVu(z.getBeitraegeStoch(), aggZeile, monat)).sum();
 		this.ag = rzgZeilen.stream().mapToDouble(z -> dfVu(z.getKostenStoch(), aggZeile, monat)).sum();
 		this.ak = rzgZeilen.stream().mapToDouble(z -> dfVu(z.getCfRvStoch(), aggZeile, monat)).sum();
+		this.br = aggZeile.getfiMw();
 	}
 
 	/**
@@ -126,6 +145,41 @@ public class MittelwerteUndCe {
 	 */
 	public int getZeit() {
 		return zeit;
+	}
+	
+	/**
+	 * @return the n
+	 */
+	public double getN() {
+		return n;
+	}
+	
+	/**
+	 * @return the o
+	 */
+	public double getO() {
+		return o;
+	}	
+	
+	/**
+	 * @return the p
+	 */
+	public double getP() {
+		return p;
+	}
+	
+	/**
+	 * @return the q
+	 */
+	public double getQ() {
+		return q;
+	}
+	
+	/**
+	 * @return the w
+	 */
+	public double getW() {
+		return w;
 	}
 
 	/**
@@ -168,6 +222,13 @@ public class MittelwerteUndCe {
 	 */
 	public double getAk() {
 		return ak;
+	}
+	
+	/**
+	 * @return the br
+	 */
+	public double getBr() {
+		return br;
 	}
 
 }
